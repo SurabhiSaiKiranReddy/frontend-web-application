@@ -1,7 +1,8 @@
 
 (function ($) {
     "use strict";
-
+    
+    
     
     
         // $('.input100').validate(

@@ -179,6 +179,7 @@ iframe {
   background-color: rgba(0,0,0,0.65);
 }
 
+
 .wrap-login100 {
   width: 390px;
   border-radius: 10px;
@@ -194,7 +195,14 @@ iframe {
   background: transparent;
 }
 
+input,
+label {
+    margin: .4rem 0;
+}
 
+.note {
+    font-size: .8em;
+}
 /*------------------------------------------------------------------
 [ Form ]*/
 
