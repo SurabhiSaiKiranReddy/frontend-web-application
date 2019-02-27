@@ -386,6 +386,12 @@ label {
   flex-wrap: wrap;
   justify-content: center;
 }
+td{
+  text-align: center;
+}
+th{
+  text-align: center;
+}
 
 .login100-form-btn {
   font-family: Ubuntu-Bold;
