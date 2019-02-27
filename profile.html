@@ -4,6 +4,9 @@
 	<title>profile-1</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -35,16 +38,16 @@
 				<span class="login100-form-title p-b-41">
 					Profile
 				</span>
-				<form class="login100-form validate-form p-b-33 p-t-5">
+				<form class="login100-form validate-form  p-b-33 p-t-5">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter Full Name">
-						<input class="input100" type="text" name="Full Name" placeholder="Full Name*">
+						<input class="input100" type="text" name="FullName" placeholder="Full Name*">
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter Address1">
 						<input class="input100" type="Address1" name="Address 1" placeholder="Address 1*">
-						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
                     </div>
 
                     <div class="wrap-input100 validate-input" >
@@ -53,24 +56,99 @@
                     </div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter City">
-						<input class="input100" type="text" name="City" placeholder="City">
+						<input class="input100" type="text" name="City" placeholder="City*">
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
                     </div>
 
-                    <div class="wrap-input100 validate-input" data-validate = "Enter City">
-						<input class="input100" type="text" name="City" placeholder="City">
+                    <!-- <div class="wrap-input100 validate-input" data-validate = "Enter State">
+						<input class="input100" type="text" name="State" placeholder="State*">
+						 <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div> -->
+					<div class="wrap-input100 validate-input">
+						<div class="stateclass">
+							<label for="state" class="">State</label>
+							<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+						</div>
+					
+								<select class="form-control pull-right" id="state" name="state">
+									<option value="">N/A</option>
+									<option value="AK">Alaska</option>
+									<option value="AL">Alabama</option>
+									<option value="AR">Arkansas</option>
+									<option value="AZ">Arizona</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DC">District of Columbia</option>
+									<option value="DE">Delaware</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="IA">Iowa</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MD">Maryland</option>
+									<option value="ME">Maine</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MO">Missouri</option>
+									<option value="MS">Mississippi</option>
+									<option value="MT">Montana</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="NE">Nebraska</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NV">Nevada</option>
+									<option value="NY">New York</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="PR">Puerto Rico</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VA">Virginia</option>
+									<option value="VT">Vermont</option>
+									<option value="WA">Washington</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WV">West Virginia</option>
+									<option value="WY">Wyoming</option>
+								</select>
+								
+						
+					  </div>
+                    <div class="wrap-input100 validate-input" data-validate = "Enter Zipcode">
+						<input class="input100" type="text" name="Zipcode" placeholder="Zipcode*">
+
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
                     </div>
-                    <div class="wrap-input100 validate-input" data-validate = "Enter Zipcode">
-						<input class="input100" type="text" name="zipcode" placeholder="zipcode">
-						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
-					</div>
+
+
+
+						
+
+
 
 
 
 					<div class="container-login100-form-btn m-t-32">
 						<button class="login100-form-btn">
-							Login
+							NEXT
+						</button>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<button class="login100-form-btn">
+							Home
 						</button>
 					</div>
 

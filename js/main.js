@@ -2,6 +2,20 @@
 (function ($) {
     "use strict";
 
+    
+    
+        // $('.input100').validate(
+        //   {
+        //     rules: 
+        //     {
+        //       input100: 
+        //       {
+        //         required: true,
+        //         FullName: 50
+        //       }
+             
+        //     }
+        //   });	
 
     /*==================================================================
     [ Focus input ]*/
