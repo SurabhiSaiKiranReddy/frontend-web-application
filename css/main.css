@@ -212,6 +212,18 @@ label {
   border-radius: 10px;
   background-color: #fff;
 }
+.divclass{
+  
+  position: relative;
+  width: 110%;
+  height: 50px;
+  background: transparent;
+  left:90%;
+  top:100%;
+  display:inline-block;
+  align:center;
+  text-align: center;
+}
 
 .login100-form-logo {
   font-size: 60px; 
@@ -276,7 +288,7 @@ label {
   line-height: 1.2;
 
   display: block;
-  width: 100%;
+  width: 55%;
   height: 50px;
   background: transparent;
   padding: 0 10px 0 80px;
