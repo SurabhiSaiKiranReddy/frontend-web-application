@@ -253,7 +253,17 @@ label {
 
   display: block;
 }
+.abc{
+  font-family: Ubuntu-Bold;
+  font-size: 28px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
 
+  /* display: block; */
+
+}
 
 /*------------------------------------------------------------------
 [ Input ]*/
